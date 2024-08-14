@@ -111,12 +111,11 @@ GROUP BY s.customer_id;
 ```
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 ```sql
-SELECT 
-    s.customer_id, 
-    SUM(CASE 
+SELECT s.customer_id, 
+      SUM(CASE 
         WHEN m.product_name = 'sushi' THEN m.price * 20 
         ELSE m.price * 10 
-    END) total_points
+     END) total_points
 FROM dannys_diner.sales s
 JOIN dannys_diner.menu m ON s.product_id = m.product_id
 GROUP BY s.customer_id;
