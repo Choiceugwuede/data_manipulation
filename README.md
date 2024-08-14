@@ -15,5 +15,14 @@ In this case study, I explore various aspects of the restaurant's data, includin
 
 - SQL Flavour : PostgreSQL v13
 
-## Data Source
+## Data 
 
+- Sales table: captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
+  
+- Menu table: maps the product_id to the actual product_name and price of each menu item.
+  
+- Mmebers table: captures the join_date when a customer_id joined resaturant loyalty program.
+
+Check out the relationship between these datasets [here](
+
+## 
