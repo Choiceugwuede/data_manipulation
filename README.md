@@ -23,6 +23,6 @@ In this case study, I explore various aspects of the restaurant's data, includin
   
 - Mmebers table: captures the join_date when a customer_id joined resaturant loyalty program.
 
-Check out the relationship between these datasets [here](
+Check out the relationship between these datasets [here](Data Model.png).
 
 ## 
